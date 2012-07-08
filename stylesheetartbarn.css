@@ -1,0 +1,129 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background:#FFFFFF;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size: 11px;
+	margin:0 auto;
+	}
+
+p {
+	font-size:14px;
+	line-height:22px;
+}
+
+.last {
+	margin-bottom:40px;
+}
+
+#thumb {
+	width:118px;
+	height:118px;
+	margin-bottom:5px;
+	background-color:#CCCCCC;
+	display:block;
+}
+
+img {
+	margin:0 5px 5px 0;
+}
+
+h1 {
+	font-family:"Futura Bold","Gill Sans",Arial,"Helvetica Neue",Helvetica,sans-serif;
+	font-size:44px;
+	font-weight:normal;
+	letter-spacing:-0.03em;
+	text-transform:uppercase;
+	font-size-adjust:0.51;
+	color:#FFF;
+	margin:0px 0px 4px 0px;
+}
+
+.h2 {
+	font-family:"Futura Bold","Gill Sans",Arial,"Helvetica Neue",Helvetica,sans-serif;
+	font-size:14px;
+	font-weight:normal;
+	text-align:center;
+	letter-spacing:-0.03em;
+	text-transform:uppercase;
+	font-size-adjust:0.51;
+	color:#FFF;
+	margin:0px 0px 15px 0px;
+	padding:0px;
+	width:auto;
+}
+
+h3 {
+	font-family:"Futura Bold","Gill Sans",Arial,"Helvetica Neue",Helvetica,sans-serif;
+	font-size:14px;
+}
+
+ul {
+	font-size:14px;
+	padding:0px;
+}
+
+.shim {
+	background:#000;
+	padding:1px 5px 1px 5px;
+}
+
+#headerbar {
+	width:100%;
+	height:10px;
+	background-color:#FF0000;
+}
+
+#container {
+	width:960px;
+	margin: 0 auto;
+}
+
+#headerimg {
+	width:100%;
+	height:390px;
+	background:url(artbarnheaderbg.jpg);
+	border-right:solid 1px #ececec;
+}
+
+#headertxt {
+	float:left;
+	width:270px;
+	height:340px;
+	background:#FFFFFF;
+	opacity:0.8;
+	padding:30px 40px 20px 40px;
+}
+
+#colleft {
+	float:left;
+	width:350px;
+	height:400px;
+	margin-top:10px;
+	margin-bottom:30px;
+}
+
+#colright {
+	float:right;
+	width:590px;
+	height:400px;
+	margin-top:10px;
+}
+
+#content {
+	border-top:solid 1px #000;
+	width:100%;
+	padding-bottom:30px;
+}
+
+#divider {
+	width:100%;
+	height:1px;
+	border-top:solid 1px #eee;
+}
+
+#footer {
+	clear:both;
+	border-top:solid 1px #000;
+}
